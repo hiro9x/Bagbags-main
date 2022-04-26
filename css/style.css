@@ -1089,7 +1089,7 @@ body {
 .describe-2type__main-1 .itemCategory-show__item:hover .itemCategory-show__item-info, .describe-2type__main-2 .itemCategory-show__item:hover .itemCategory-show__item-info {
   width: 100%;
   background: #fff;
-  bottom: 48dpx;
+  bottom: 48px;
   z-index: 3;
 }
 .describe-2type__main-1 .itemCategory-show__item:hover .item-img1, .describe-2type__main-2 .itemCategory-show__item:hover .item-img1 {
