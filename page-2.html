@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Page-2</title>
+</head>
+
+<body>
+    <div class="aside"></div>
+    <div class="page">
+        <div class="page-header"></div>
+        <div class="page-2">
+            <div class="page-2__header">
+                <h4>Túi xách cỡ trung</h4>
+                <p>(19 sản phẩm)</p>
+            </div>
+            <!-- Main option -->
+            <div class="page-2__setting">
+                <button class="page-2__setting-filter" onclick="filter();">
+                    <span>Bộ lọc</span>
+                    <img src="images/down-arrow.svg">
+                </button>
+                <div class="page-2__setting-arrange">
+                    <span>Sắp xếp theo:</span>
+                    <select name="" id="">
+                        <option value="0">Tùy chọn</option>
+                        <option value="1">Giá: Tăng dần</option>
+                        <option value="2">Giá: giảm dần</option>
+                        <option value="3">Mới nhất</option>
+                        <option value="4">Bán chạy nhất</option>
+                    </select>
+                    <img src="images/down-arrow.svg" alt="">
+                </div>
+            </div>
+            <!-- End Main option -->
+            <!-- Main filter -->
+            <div id="page-2__select">
+                <div class="page-2__select-right">
+                    <div class="page-2__select-material">
+                        <div class="page-2__select-head">
+                            <img src="images/right-arrow.svg" alt="">
+                            <h6>Chat lieu</h6>
+                        </div>
+                        <div>
+                            <a href="#"><span>Da that</span></a>
+                            <a href="#"><span>Gia da</span></a>
+                            <a href="#"><span>Da Canvas</span></a>
+                        </div>
+                    </div>
+                    <div class="page-2__select-price">
+                        <div class="page-2__select-head">
+                            <img src="images/right-arrow.svg" alt="">
+                            <h6>Gia tien</h6>
+                        </div>
+                        <div>
+                            <input type="range" style="margin-left: 15px;">
+                            <br>
+                            <span>324.000 - 4.222.000 vnđ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-2__select-center">
+                    <div class="page-2__select-head">
+                        <img src="images/right-arrow.svg" alt="">
+                        <h6>Mau sac</h6>
+                    </div>
+                    <div class="page-2__select-color">
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-white"></div>
+                                <span>white</span>
+                            </a>
+                        </div>
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-nude"></div>
+                                <span>nude</span>
+                            </a>
+                        </div>
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-red"></div>
+                                <span>red</span>
+                            </a>
+                        </div>
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-red-black"></div>
+                                <span>red/black</span>
+                            </a>
+                        </div>
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-white-black"></div>
+                                <span>white/black</span>
+                            </a>
+                        </div>
+                        <div class="color__select">
+                            <a href="#">
+                                <div class="color-full">
+                                    <div style="background: black;"></div>
+                                    <div style="background: red;"></div>
+                                    <div style="background: #d1e6f9;"></div>
+                                    <div style="background: #f1b300;"></div>
+                                </div>
+                                <span>full color</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-2__select-left">
+                    <div class="page-2__select-size">
+                        <div class="page-2__select-head">
+                            <img src="images/right-arrow.svg" alt="">
+                            <h6>Size</h6>
+                        </div>
+                        <div>
+                            <a href="#"><span>36</span></a>
+                            <a href="#"><span>37</span></a>
+                            <a href="#"><span>38</span></a>
+                            <a href="#"><span>39</span></a>
+                            <a href="#"><span>40</span></a>
+                            <a href="#"><span>41</span></a>
+                            <a href="#"><span>42</span></a>
+                        </div>
+                    </div>
+                    <div class="page-2__select-country">
+                        <div class="page-2__select-head">
+                            <img src="images/right-arrow.svg" alt="">
+                            <h6>Country</h6>
+                        </div>
+                        <div>
+                            <a href="#"><span>VietNam</span></a>
+                            <a href="#"><span>American</span></a>
+                            <a href="#"><span>China</span></a>
+                            <a href="#"><span>India</span></a>
+                            <a href="#"><span>India</span></a>
+                            <a href="#"><span>India</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main filter -->
+            <!-- Main menu item -->
+            <div class="page-2__menu mt20">
+                
+            </div>
+            <!-- End Main menu item -->
+        </div>
+        <div class="page-footer"></div>
+    </div>
+    <!-- Go to head page -->
+    <div class="go-ahead">
+        <span>Go ahead</span>
+        <img src="images/right-arrow-ahead.svg" alt="">
+    </div>
+    <!-- End Go to head page -->
+</body>
+<script src="js/style.js"></script>
+
+</html>
